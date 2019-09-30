@@ -53,10 +53,11 @@ echo "export CUDA_HOME=/usr/local/cuda" >> /etc/bashrc
 exit
 
 . /etc/bashrc
+. ~/.bashrc
 
 sudo yum install python-qt4 -y  # to solve libsm6 error
 
-conda create -n py36 pip python=3.6
+conda create -n py36 pip python=3.6 -y
 #source activate py36
 conda activate py36
 
