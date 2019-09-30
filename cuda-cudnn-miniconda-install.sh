@@ -1,3 +1,8 @@
+#############################   Push in Artifactory generic-local    ##################################
+# From your laptop
+curl -ujear:AP4MZbmtoefzLcEsoMJoVvdVqDD -T cuda_10.0.130_410.48_linux.run "http://10.202.115.197/artifactory/generic-local/cuda_10.0.130_410.48_linux.run"
+curl -ujear:AP4MZbmtoefzLcEsoMJoVvdVqDD -T cudnn-10.0-linux-x64-v7.5.1.10.tgz "http://10.202.115.197/artifactory/generic-local/cudnn-10.0-linux-x64-v7.5.1.10.tgz"
+
 #############################   CUDA + cuDNN    ##################################
 sudo yum update -y
 sudo yum -y install wget git bzip2 perl gcc gcc-c++
