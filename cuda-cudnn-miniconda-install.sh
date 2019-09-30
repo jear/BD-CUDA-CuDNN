@@ -38,7 +38,8 @@ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
 #############################   Miniconda    #####################################
-curl -ujear:AP4MZbmtoefzLcEsoMJoVvdVqDD -O "http://10.202.115.197/artifactory/Miniconda3-latest-Linux-x86_64.sh"
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+# curl -ujear:AP4MZbmtoefzLcEsoMJoVvdVqDD -O "http://10.202.115.197/artifactory/Miniconda3-latest-Linux-x86_64.sh"
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
