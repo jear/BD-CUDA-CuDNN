@@ -60,6 +60,8 @@ exit
 . /etc/bashrc
 . ~/.bashrc
 
+
+#############################   A test with Image segmentation    #####################################
 sudo yum install python-qt4 -y  # to solve libsm6 error
 
 conda create -n py36 pip python=3.6 -y
